@@ -22,7 +22,7 @@ body.page-wrapper {
 }
 
 .carousel.carousel-slider {
-    max-height: 400px;
+    height: 500px;
 }
 
 .carousel.carousel-slider .carousel-fixed-item img {
@@ -35,11 +35,30 @@ body.page-wrapper {
 
 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
     bottom: 0;
-    height: 400px;
+    height: 500px;
 }
 
 .carousel .indicators {
     z-index: 2;
     right: auto;
     padding-left: 2rem;
+}
+
+.grey.custom {
+    background-color: #404552;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+}
+
+#prev {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+#next {
+    right: 0;
+    transform: translate(50%, -50%);
 }
